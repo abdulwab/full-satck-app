@@ -13,8 +13,13 @@ const Login = () => {
   };
 
   return (
-    <div>
-      <button onClick={handleLogin}>Login with LinkedIn</button>
+    <div className="flex justify-center items-center h-screen">
+      <button
+        onClick={handleLogin}
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-xl"
+      >
+        Login with LinkedIn
+      </button>
     </div>
   );
 };
